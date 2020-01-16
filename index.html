@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="./styles/mainstyle.css">
+    <h1>
+        <div class="grid-header" align-content="center">
+            <div class="centering-contents">
+                <img src="icons/logo.png" alt="HTML5 Icon" max-width="100" height="100" >
+            </div>
+        </div>
+    </h1>
+</head>
+<body>
+    <script async type="text/javascript" src="./script/jquery-3.4.1.min.js"></script>
+    <script async type="text/javascript" src="./script/spch2text.js"></script>
+    <div class="grid-container">
+            <div class="centering-contents">
+                    <button class="buttonCSS" id="record-btn">Start Meeting</button>
+            </div>
+            <div class="centering-contents">
+                    <button class="buttonCSS" id="summarize-btn">Generate Minutes</button>
+            </div>
+    </div>
+    <div class="grid-container" align-content="center">
+        <div id="raw-text" class="text-field">
+            <span id="final-span"></span>
+            <span id="interim-span"></span>
+        </div>
+    </div>
+    <div class="grid-container-footer">
+        <div class="centering-contents">
+            <div class="centering-contents">
+                <div class="grid-container-bottom">
+                    <div class="grid-for-image">
+                            <div class="grid-for-image">
+                                <button class="bottom-btns" id="audio-file">
+                                    <img src="icons/saverecord.png" class="image" alt="HTML5 Icon">
+                                </button>
+                            </div>
+                            <div class="grid-for-image">Save Recording</div>
+                    </div>
+                    <div class="grid-for-image">
+                            <div class="grid-for-image">
+                                <button class="bottom-btns" id="raw-text-file">
+                                    <img src="icons/wholediscussion.png" class="image" alt="HTML5 Icon">
+                                </button>
+                            </div>
+                            <div class="grid-for-image">Whole Discussion</div>
+                    </div>
+                    <div class="grid-for-image">
+                            <div class="grid-for-image">
+                                <button class="bottom-btns" id="summarize-text-file">
+                                    <img src="icons/minutes.png" class="image" alt="HTML5 Icon">
+                                </button>
+                            </div>
+                            <div class="grid-for-image">Minutes of the Meeting</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
